@@ -141,7 +141,7 @@ button:hover {
     margin: 0;
     height: 300px;
     margin: auto;
-    padding: auto;
+    padding: 100px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,7 +196,7 @@ button:hover {
  /*footer will now begin*/
 
 footer {
-
+    padding-top: 20px;
     background-color: #1f2937;
     font-size: 24px;
     font-weight: bold;

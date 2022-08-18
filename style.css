@@ -5,9 +5,8 @@
     word-wrap: break-word;
     font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
 }
-body{
-    display: flex;
-    flex-direction: column;
+body {
+    height: 100%;
 }
 /*header starts here*/
 .header-one {
@@ -140,10 +139,12 @@ button:hover {
     background-color: #e5e7eb;
     width: auto;
     margin: 0;
-    height: 500px;
+    height: 300px;
+    margin: auto;
+    padding: auto;
     display: flex;
     flex-direction: column;
-    padding: 100px 250px;
+    justify-content: center;
 }
  .quote {
     font-size: 36px;
@@ -194,17 +195,15 @@ button:hover {
 
  /*footer will now begin*/
 
-.footer {
+footer {
+
     background-color: #1f2937;
     font-size: 24px;
     font-weight: bold;
     color: #f9fbf8;
     text-align: center;
-    width: auto;
-    height: 70px;
-    padding: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    bottom: 0;
+    width: 100%;
+    min-height: 70px;
 }
 /*footer is now complete*/

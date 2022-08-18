@@ -59,17 +59,25 @@ a:hover{
 }
 
 button {
+    font-weight: bolder;
     width: 150px;
     background-color: #3882f6;
     color: #f9fbf8;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 
 }
-
+button {
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: #f9fbf8; /* white */
+    color: black;
+  }
 
 .header-two {
     display: flex;
@@ -149,3 +157,49 @@ button {
  /*quote box is now completed*/
 
  /*call to action begins from below*/
+
+ .cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 300px;
+    background-color: #3882f6;
+    width: auto;
+    height: 100px;
+    border-radius: 7px;
+ }
+ 
+ .cta-main {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9fbf8;
+    padding-bottom: 3px;
+ 
+ }
+
+ .cta-sub {
+    color: #f9fbf8;
+ }
+
+ .cta-but {
+    border-width: 2px;
+    border-color: #f9fbf8;
+ }
+ /*call to action is now completed*/
+
+ /*footer will now begin*/
+
+.footer {
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9fbf8;
+    text-align: center;
+    width: auto;
+    height: 70px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*footer is now complete*/
